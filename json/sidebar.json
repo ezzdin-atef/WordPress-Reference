@@ -1,0 +1,17 @@
+[
+  {
+    "name": "register_sidebar",
+    "link": "https://developer.wordpress.org/reference/functions/register_sidebar/",
+    "about": "Builds the definition for a single sidebar and returns the ID."
+  },
+  {
+    "name": "is_active_sidebar",
+    "link": "https://developer.wordpress.org/reference/functions/is_active_sidebar/",
+    "about": "Determines whether a sidebar is in use."
+  },
+  {
+    "name": "dynamic_sidebar",
+    "link": "https://developer.wordpress.org/reference/functions/dynamic_sidebar/",
+    "about": "Display dynamic sidebar."
+  }
+]

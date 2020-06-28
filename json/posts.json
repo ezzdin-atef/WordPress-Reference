@@ -1,30 +1,102 @@
 [
   {
-    "name": "wp_header()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_header()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_header()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_header()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_header()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_header()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_header()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_header()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_header()",
-    "link": "https://www.wordpress.org"
+    "name": "have_posts",
+    "link": "https://developer.wordpress.org/reference/functions/have_posts",
+    "about": "Whether current WordPress query has results to loop over."
+  },
+  {
+    "name": "the_post",
+    "link": "https://developer.wordpress.org/reference/functions/the_post",
+    "about": "Iterate the post index in the loop."
+  },
+  {
+    "name": "the_permalink",
+    "link": "https://developer.wordpress.org/reference/functions/the_permalink",
+    "about": "Displays the permalink for the current post."
+  },
+  {
+    "name": "has_post_thumbnail",
+    "link": "https://developer.wordpress.org/reference/functions/has_post_thumbnail/",
+    "about": "Determines whether a post has an image attached."
+  },
+  {
+    "name": "the_post_thumbnail",
+    "link": "https://developer.wordpress.org/reference/functions/the_post_thumbnail/",
+    "about": "Display the post thumbnail."
+  },
+  {
+    "name": "the_title",
+    "link": "https://developer.wordpress.org/reference/functions/the_title/",
+    "about": "Display or retrieve the current post title with optional markup."
+  },
+  {
+    "name": "the_author_posts_link",
+    "link": "https://developer.wordpress.org/reference/functions/the_author_posts_link/",
+    "about": "Displays an HTML link to the author page of the current post’s author with his name"
+  },
+  {
+    "name": "the_excerpt",
+    "link": "https://developer.wordpress.org/reference/functions/the_excerpt/",
+    "about": "Display the post excerpt."
+  },
+  {
+    "name": "the_content",
+    "link": "https://developer.wordpress.org/reference/functions/the_content/",
+    "about": "Display the post content."
+  },
+  {
+    "name": "get_previous_posts_link",
+    "link": "https://developer.wordpress.org/reference/functions/get_previous_posts_link/",
+    "about": "Retrieves the previous posts page link."
+  },
+  {
+    "name": "previous_posts_link",
+    "link": "https://developer.wordpress.org/reference/functions/previous_posts_link/",
+    "about": "Displays the previous posts page link."
+  },
+  {
+    "name": "get_next_posts_link",
+    "link": "https://developer.wordpress.org/reference/functions/get_next_posts_link/",
+    "about": "Retrieves the next posts page link."
+  },
+  {
+    "name": "next_posts_link",
+    "link": "https://developer.wordpress.org/reference/functions/next_posts_link/",
+    "about": "Displays the next posts page link."
+  },
+  {
+    "name": "get_previous_post_link",
+    "link": "https://developer.wordpress.org/reference/functions/get_previous_post_link/",
+    "about": "Retrieves the previous post link that is adjacent to the current post."
+  },
+  {
+    "name": "previous_post_link",
+    "link": "https://developer.wordpress.org/reference/functions/previous_post_link/",
+    "about": "Displays the previous post link that is adjacent to the current post."
+  },
+  {
+    "name": "get_next_post_link",
+    "link": "https://developer.wordpress.org/reference/functions/get_next_post_link/",
+    "about": "Retrieves the next post link that is adjacent to the current post."
+  },
+  {
+    "name": "next_post_link",
+    "link": "https://developer.wordpress.org/reference/functions/next_post_link/",
+    "about": "Displays the next post link that is adjacent to the current post."
+  },
+  {
+    "name": "paginate_links",
+    "link": "https://developer.wordpress.org/reference/functions/paginate_links/",
+    "about": "Retrieve paginated link for archive post pages."
+  },
+  {
+    "name": "get_pagenum_link",
+    "link": "https://developer.wordpress.org/reference/functions/get_pagenum_link/",
+    "about": "Retrieves the link for a page number."
+  },
+  {
+    "name": "count_user_posts",
+    "link": "https://developer.wordpress.org/reference/functions/count_user_posts/",
+    "about": "Number of posts user has written."
   }
 ]

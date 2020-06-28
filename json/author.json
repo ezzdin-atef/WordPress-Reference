@@ -1,0 +1,22 @@
+[
+  {
+    "name": "get_author_posts_url",
+    "link": "https://developer.wordpress.org/reference/functions/get_author_posts_url/",
+    "about": "Retrieve the URL to the author page for the user with the ID provided."
+  },
+  {
+    "name": "get_the_author_meta",
+    "link": "https://developer.wordpress.org/reference/functions/get_the_author_meta/",
+    "about": "Retrieves the requested data of the author of the current post."
+  },
+  {
+    "name": "the_author_meta",
+    "link": "https://developer.wordpress.org/reference/functions/the_author_meta/",
+    "about": "Outputs the field from the user’s DB object. Defaults to current post’s author."
+  },
+  {
+    "name": "get_avatar",
+    "link": "https://developer.wordpress.org/reference/functions/get_avatar/",
+    "about": "Retrieve the avatar <img> tag for a user, email address, MD5 hash, comment, or post."
+  }
+]

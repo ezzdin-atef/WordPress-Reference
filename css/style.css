@@ -1,8 +1,8 @@
 :root {
-  --blue: #0BAAE3;
-  --light-blue: #00D6F0;
-  --green: #00D6CD;
-  --light-green: #0CF0BE;
+  --div-background: #0baae3;
+  --div-header: #00d6f0;
+  --bg: #00d6cd;
+  --light-green: #0cf0be;
 }
 * {
   margin: 0;
@@ -12,7 +12,7 @@
 body {
   font-family: sans-serif;
   font-size: 18px;
-  background-color: var(--green);
+  background-color: var(--bg);
   color: #fff;
 }
 h1 {
@@ -28,13 +28,16 @@ h1 {
   margin: 50px auto;
 }
 .container > div {
-  background-color: var(--blue);
   width: 30%;
-  margin: 20px 0;
+}
+.container > div > div {
+  margin: 30px 0;
+  background-color: var(--div-background);
+  height: fit-content;
   border-radius: 10px;
 }
 .container > div h3 {
-  background-color: var(--light-blue);
+  background-color: var(--div-header);
   padding: 15px;
   border-radius: 10px 10px 0 0;
   text-align: center;
@@ -49,6 +52,9 @@ h1 {
 .container > div ul li a {
   color: #fff;
   text-decoration: none;
+}
+.container > div ul li a code::after {
+  content: "()";
 }
 .container > div ul li a:hover {
   text-decoration: underline;

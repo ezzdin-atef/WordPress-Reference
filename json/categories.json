@@ -1,30 +1,12 @@
 [
   {
-    "name": "wp_head()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_head()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_head()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_head()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_head()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_head()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_head()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_head()",
-    "link": "https://www.wordpress.org"
-  },{
-    "name": "wp_head()",
-    "link": "https://www.wordpress.org"
+    "name": "the_category",
+    "link": "https://developer.wordpress.org/reference/functions/the_category/",
+    "about": "Display category list for a post in either HTML list or custom format"
+  },
+  {
+    "name": "get_the_category",
+    "link": "https://developer.wordpress.org/reference/functions/get_the_category/",
+    "about": "Retrieve post categories."
   }
 ]

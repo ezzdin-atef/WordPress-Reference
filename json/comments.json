@@ -1,0 +1,37 @@
+[
+  {
+    "name": "comments_popup_link",
+    "link": "https://developer.wordpress.org/reference/functions/comments_popup_link/",
+    "about": "Displays the link to the comments for the current post ID"
+  },
+  {
+    "name": "comments_template",
+    "link": "https://developer.wordpress.org/reference/functions/comments_template/",
+    "about": "Loads the comment template specified in $file."
+  },
+  {
+    "name": "get_comments",
+    "link": "https://developer.wordpress.org/reference/functions/get_comments/",
+    "about": "Retrieve a list of comments and you can also return it's number only."
+  },
+  {
+    "name": "comment_open",
+    "link": "https://developer.wordpress.org/reference/functions/comments_open/",
+    "about": "Determines whether the current post is open for comments."
+  },
+  {
+    "name": "comments_number",
+    "link": "https://developer.wordpress.org/reference/functions/comments_number/",
+    "about": "Displays the language string for the number of comments the current post has."
+  },
+  {
+    "name": "wp_list_comments",
+    "link": "https://developer.wordpress.org/reference/functions/wp_list_comments/",
+    "about": "Displays a list of comments."
+  },
+  {
+    "name": "comment_form",
+    "link": "https://developer.wordpress.org/reference/functions/comment_form/",
+    "about": "Outputs a complete commenting form for use within a template."
+  }
+]

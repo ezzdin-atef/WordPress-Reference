@@ -1,0 +1,82 @@
+[
+  {
+    "name": "get_header",
+    "link": "https://developer.wordpress.org/reference/functions/get_header/",
+    "about": "Load header template."
+  },
+  {
+    "name": "get_footer",
+    "link": "https://developer.wordpress.org/reference/functions/get_footer",
+    "about": "Load footer template."
+  },
+  {
+    "name": "WP_Query",
+    "link": "https://developer.wordpress.org/reference/classes/wp_query",
+    "about": "make custom requests."
+  },
+  {
+    "name": "wp_reset_postdata",
+    "link": "https://developer.wordpress.org/reference/functions/wp_reset_postdata/",
+    "about": "After looping through a separate query, this function restores the $post global to the current post in the main query."
+  },
+  {
+    "name": "wp_footer",
+    "link": "https://developer.wordpress.org/reference/functions/wp_footer/",
+    "about": "Fire the wp_footer action."
+  },
+  {
+    "name": "wp_head",
+    "link": "https://developer.wordpress.org/reference/functions/wp_head/",
+    "about": "Fire the wp_head action."
+  },
+  {
+    "name": "bloginfo",
+    "link": "https://developer.wordpress.org/reference/functions/bloginfo/",
+    "about": "Displays information about the current site."
+  },
+  {
+    "name": "wp_reset_postdata",
+    "link": "https://developer.wordpress.org/reference/functions/wp_reset_postdata/",
+    "about": "After looping through a separate query, this function restores the $post global to the current post in the main query."
+  },
+  {
+    "name": "add_theme_support",
+    "link": "https://developer.wordpress.org/reference/functions/add_theme_support/",
+    "about": "Registers theme support for a given feature."
+  },
+  {
+    "name": "wp_enqueue_style",
+    "link": "https://developer.wordpress.org/reference/functions/wp_enqueue_style/",
+    "about": "Enqueue a CSS stylesheet."
+  },
+  {
+    "name": "wp_enqueue_script",
+    "link": "https://developer.wordpress.org/reference/functions/wp_enqueue_script/",
+    "about": "Enqueue a script."
+  },
+  {
+    "name": "wp_deregister_script",
+    "link": "https://developer.wordpress.org/reference/functions/wp_deregister_script/",
+    "about": "Remove a registered script."
+  },
+  {
+    "name": "wp_register_script",
+    "link": "https://developer.wordpress.org/reference/functions/wp_register_script/",
+    "about": "Register a new script."
+  },
+  {
+    "name": "register_nav_menu",
+    "link": "https://developer.wordpress.org/reference/functions/register_nav_menu/",
+    "about": "Registers a navigation menu location for a theme."
+  },
+  {
+    "name": "get_query_var",
+    "link": "https://developer.wordpress.org/reference/functions/get_query_var/",
+    "about": "Retrieve variable in the WP_Query class."
+  },
+  {
+    "name": "add_action",
+    "link": "https://developer.wordpress.org/reference/functions/add_action/",
+    "about": "Hooks a function on to a specific action."
+  }
+]
