@@ -5,7 +5,7 @@ const elements = {
   right: document.querySelector(".container .right"),
 };
 
-function getData(name, position) {
+function getData(name) {
   let xhr = new XMLHttpRequest();
   xhr.open("GET", `json/${name}.json`, true);
   xhr.send();
@@ -38,22 +38,23 @@ function getData(name, position) {
       mainDiv.appendChild(ul);
 
       // append the element to the container
-      if (position === "right") elements.right.appendChild(mainDiv);
-      else if (position === "left") elements.left.appendChild(mainDiv);
-      else if (position === "center") elements.center.appendChild(mainDiv);
+      let leftHeight = elements.left.clientHeight;
+      let rightHeight = elements.right.clientHeight;
+      let centerHeight = elements.center.clientHeight;
+
+      if (rightHeight <= leftHeight && rightHeight <= centerHeight)
+        elements.right.appendChild(mainDiv);
+      else if (leftHeight <= rightHeight && leftHeight <= centerHeight)
+        elements.left.appendChild(mainDiv);
+      else elements.center.appendChild(mainDiv);
+      console.log();
     }
   };
 }
 
-// left
-getData("posts", "left");
-getData("author", "left");
-getData("comments", "left");
-
-// center
-getData("essentials", "center");
-
-// right
-
-getData("categories", "right");
-getData("sidebar", "right");
+getData("posts");
+getData("author");
+getData("comments");
+getData("essentials");
+getData("categories");
+getData("sidebar");
